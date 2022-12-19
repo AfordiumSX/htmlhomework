@@ -1,0 +1,27 @@
+#d1 a:link, #d1 a:visited{
+	text-decoration: none;
+	color: blue;
+}
+#d1 a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+#d2 a:link, #d2 a:visited{
+	text-decoration: underline;
+	color: red;
+}
+#d2 a:hover{
+	text-decoration: line-through;
+	color: blue;
+}
+
+#d3 a:link, #d3 a:visited{
+	text-decoration: none;
+	color: black;
+}
+#d3 a:hover{
+	color: red;
+	text-decoration: overline;
+}
+
