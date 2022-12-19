@@ -1,9 +1,0 @@
-body{
-	background: url(fon1.jpg) repeat-y right top;
-}
-p{
-	width: 500px; 
-	text-align: justify; 
-	font-weight: bold; 
-}
-h1, p{color: black;}
