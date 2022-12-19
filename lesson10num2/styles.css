@@ -1,0 +1,8 @@
+#div{
+	width: 700px;
+	margin: 50px auto;
+	padding: 30px;
+	text-align: justify;
+	border: 1px solid red;
+	border-radius: 10px;
+}
