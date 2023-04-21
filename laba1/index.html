@@ -1,0 +1,109 @@
+<button class="myButton2" id="myButton" role="button"><span class="text">Нажми меня!</span></button>
+<p id="myText">Это исходный текст.</p>
+<button class="myButton2" id="three" role="button"><span class="text">Double Click</span></button>
+<button class="myButton2" id="myButton2" role="button"><span class="text">Наведи на меня</span></button>
+
+
+<input type="text" id="myInput" value="Исходный текст">
+<button id="myButton3">Изменить текст</button>
+<br>
+<br>
+<img id="myImage" src="image.png" alt="Начальное изображение">
+<br>
+<br>
+<button id="myButton5">Изменить изображение</button>
+<br>
+<br>
+<p id="myText2">Нажми на меня, я просто текст</p>
+<br>
+<br>
+<p id="myText3">Теперь нажмии на меня</p>
+<br>
+<br>
+<input type="text" id="myIn3" value="Исходный текст">
+<br>
+<br>
+<button class="myButton2" id="myButton1337" role="button"><span class="text">Нажми меня и я поменяю текст!</span></button>
+<button id="myButton13371">Нажми меня</button>
+<br>
+<br>
+<input type="text" id="myInput1337" value="ку-ку"> 
+<button id="myButton133712">Нажми на меня</button>
+<button id="buttonfinal1">Скрыть поле ввода</button>
+<button id="buttonfinal2">Показать поле ввода</button>
+
+
+<style type="text/css">
+    html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+    .myButton2 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.myButton2:active,
+.myButton2:hover {
+  outline: 0;
+}
+
+.myButton2 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.myButton2:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .myButton2 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+  </style>
+<script src="script.js"></script>
